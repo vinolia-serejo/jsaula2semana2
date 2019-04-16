@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+@media (max-width: 1199px) {
+    .container {
+      width: 100%;
+    }
+  }
+fieldset {
+    border: 0 none;
+    
+}  
