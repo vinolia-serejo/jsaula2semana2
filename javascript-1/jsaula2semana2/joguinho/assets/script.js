@@ -8,7 +8,7 @@ opcoes.addEventListener("change", function(){
 })  
 let joga = 'jogador';
 
-switch(fruta) {
+switch(opcoes) {
   case 'pedra':
     alert('pedra escolhida');
     break;

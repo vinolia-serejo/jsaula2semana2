@@ -1,0 +1,110 @@
+
+body {
+    
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+   
+.navegacao {
+    background-color: #a0bed0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1%;
+    
+
+}
+.menu{
+    list-style: none;
+    display: flex;
+    color: aliceblue;
+    
+
+}
+.banner {
+    background-image: url("./img1.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 500px;     
+    
+} 
+
+h1{
+    text-align: center;
+    
+}
+
+h2{
+    text-align: center;
+    position: relative;
+    bottom: -200px;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho__button{
+    width: 50%;
+    padding: 20px;
+    background-color: #78bb1f;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family: 'varela round, sans-serif';
+    margin-left: 25%;
+}
+
+.sobre {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+    padding: 40px;
+}
+.sobre > p{
+    width: 51%;
+}
+.container__conteudo {
+    padding: 80px;
+   text-align: center;
+   
+
+}
+.conteudo__alternativa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img__comida {
+    max-width: 740px;
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+
+.footer {
+    background-color: #161616;
+    margin-top: 80px;
+    text-align: center;
+    color: rgba(255, 255, 255, .5);
+    padding: 40px;
+}
+.footer__lista {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.footer > a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: #829dad;
+}
